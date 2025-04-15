@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>مشغل HLS</title>
+  <link href="https://vjs.zencdn.net/7.21.1/video-js.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .video-js {
+      width: 80%;
+      max-width: 800px;
+    }
+  </style>
+</head>
+<body>
+  <video
+    id="my-video"
+    class="video-js vjs-default-skin"
+    controls
+    preload="auto"
+    data-setup='{}'
+  >
+    <source src="https://2u.pw/3zZbW" type="application/x-mpegURL" />
+    متصفحك لا يدعم تشغيل الفيديو.
+  </video>
+
+  <script src="https://vjs.zencdn.net/7.21.1/video.min.js"></script>
+</body>
+</html>
